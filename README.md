@@ -1,11 +1,11 @@
 # Warps (Coming soon!)
 Server and player warps module with advanced capabilities and lightweight game configuration. <br>
 <br>
-Version: 1.0-SNAPSHOT<br>
-Native API: TODO add version<br>
+Version: `1.0-SNAPSHOT`<br>
+Native API: `Paper-1.16.3-R0.1-SNAPSHOT`<br>
 Website: <a href="www.sebbaindustries.com">SebbaIndustries.com</a><br>
 Source code: <a href="https://github.com/SebbaIndustries/Warps">github.com/SebbaIndustries/Warps</a><br>
-Java Docs: <a href="https://github.com/SebbaIndustries/JavaDocs">github.com/SebbaIndustries/JavaDocs</a><br>
+Wiki: <a href="#">TODO: Plugin Wiki here</a><br>
 Developers: `SebbaIndustries`, `Frcsty` <br>
 
 
