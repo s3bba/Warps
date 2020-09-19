@@ -1,4 +1,4 @@
-# Warps
+# Warps (Coming soon!)
 Server and player warps module with advanced capabilities and lightweight game configuration. <br>
 <br>
 Version: 1.0-SNAPSHOT<br>
@@ -9,33 +9,26 @@ Java Docs: <a href="https://github.com/SebbaIndustries/JavaDocs">github.com/Sebb
 Developers: `SebbaIndustries`, `Frcsty` <br>
 
 [![forthebadge made-with-java](https://ForTheBadge.com/images/badges/made-with-java.svg)](https://java.com/)
+<br>
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+How To (Server Owners)
+------
+This is a plugin build on PaperAPI, you can run it on Spigot but use Paper for best experience.<br>
+Warps plugin uses MySQL/MariaDB to store its data, so you need to configure `hikari.properties` file for your database.
+<b>Plugin will not load without database connection!</b>
 
-## Licence
-<b>MIT License</b><br>
-<br>
-<b>Copyright (c) 2020 SebbaIndustries</b><br>
-<br>
-Permission is hereby granted, free of charge, to any person obtaining a copy <br>
-of this software and associated documentation files (the "Software"), to deal <br>
-in the Software without restriction, including without limitation the rights <br>
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell <br>
-copies of the Software, and to permit persons to whom the Software is <br>
-furnished to do so, subject to the following conditions: <br>
-<br>
-The above copyright notice and this permission notice shall be included in all <br>
-copies or substantial portions of the Software. <br>
-<br>
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR <br>
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, <br>
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE <br>
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER <br>
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, <br>
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE <br>
-SOFTW
+Download Warps here: <a href="#">TODO setup download site</a>
+
+<b>Instalation:</b> 
+- Place Warps-1.0-SNAPSHOT.jar file into plugins folder
+- Start the server, plugin will generate `Warps` directory
+- Stop the server after everything has been loaded
+- Open and configure `hikari.properites` for your database (More detailed instructions on database connection are included in the file) 
 
 ## Features
+
+Todo: Features here
 
 ## Commands (Players)
 #### `/warp`
@@ -70,4 +63,3 @@ SOFTW
 <b>Use: </b>
 - `/renamewarp <name>`
 <br>This command renames warp if warp can be renamed.
-
