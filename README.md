@@ -8,9 +8,11 @@ Source code: <a href="https://github.com/SebbaIndustries/Warps">github.com/Sebba
 Java Docs: <a href="https://github.com/SebbaIndustries/JavaDocs">github.com/SebbaIndustries/JavaDocs</a><br>
 Developers: `SebbaIndustries`, `Frcsty` <br>
 
-[![forthebadge made-with-java](https://ForTheBadge.com/images/badges/made-with-java.svg)](https://java.com/)
-<br>
+
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/SebbaIndustries/Warps/Java%20CI%20with%20Maven/master)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/SebbaIndustries/Warps/CodeQL/master?label=codeQL)
+[![GitHub issues](https://img.shields.io/github/issues/SebbaIndustries/Warps)](https://github.com/SebbaIndustries/Warps/issues)
 
 How To (Server Owners)
 ------
