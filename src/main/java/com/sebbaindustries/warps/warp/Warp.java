@@ -41,7 +41,7 @@ public interface Warp {
         return factory;
     }
 
-    static Warp newWarp(String name, String owner, Location loc) {
+    static Warp createWarp(String name, String owner, Location loc) {
         WarpFactory factory = new WarpFactory();
         factory.setName(name);
         factory.setOwner(owner);

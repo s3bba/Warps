@@ -2,9 +2,7 @@ package com.sebbaindustries.warps;
 
 import com.sebbaindustries.warps.global.GlobalCore;
 import com.sebbaindustries.warps.global.ServerPlugin;
-import com.sebbaindustries.warps.warp.WarpFactory;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.logging.Logger;
 
