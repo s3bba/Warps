@@ -56,58 +56,61 @@ Download Warps here: <a href="#">TODO setup download site</a>
 
 Todo: Features here
 
-## Commands & permissions (Players)
+## Commands & permissions
 
 #### `/warp`
-Permission: `warps.warp` <br>
-Use: 
-- `/warp <warp>`
+Use (Players): 
+- `/warp <warp>` `warps.warp`
 <br>This command teleports you to the specified warp.
+- `/warp <warp> unsafe` `warps.warp.unsafe`
+<br>This command teleports you to the specified warp even if warp location is considered dangerous.
 
 #### `/warps`
-Permission: `warps.warps` <br>
-Use:
-- `/warps`
+Use (Players):
+- `/warps` `warps.warps`
 <br>This command opens warps GUI.
-- `/warps help`
+- `/warps help` `warps.warps.help`
 <br>This command shows help message.
-- `/warps <category>`
+- `/warps <category>` `warps.warps.category`
 <br>This command opens warps GUI with specified category.
 
+Use (Staff): 
+
+
 #### `/listwarps`
-Permission: `warps.listwarps` <br>
-Use:
-- `/listwarps`
+Use (Players):
+- `/listwarps` `warps.listwarps`
 <br>This command opens warps GUI displaying all your warps.
-- `/warps <player>`
+- `/listwarps <player>` `warps.listwarps.others`
 <br>This command opens warps GUI with warps from that player.
 
 #### `/setwarp`
-Permission: `warps.setwarp` <br>
-Use:
-- `/setwarp`
+Use (Players):
+- `/setwarp` `warps.setwarp`
 <br>This command creates a new warp, name of the warp is taken from the players name.
-- `/setwarp <name>`
+- `/setwarp <name>` `warps.setwarp`
 <br>This command creates a new warp, name is taken from the command argument.
 
 #### `/delwarp`
-Permission: `warps.delwarp` <br>
-Use:
-- `/delwarp`
+Use (Players):
+- `/delwarp` `warps.delwarp`
 <br>This command deletes warp, name of the warp is taken from the players name.
-- `/delwarp <name>`
+- `/delwarp <name>` `warps.delwarp`
 <br>This command deletes warp, name is taken from the command argument.
 
 #### `/movewarp`
-Permission: `warps.movewarp` <br>
-Use: 
-- `/movewarp`
+Use (Players): 
+- `/movewarp` `warps.movewarp`
 <br>This command moves warp to the current player location, name of the warp is taken from the players name.
-- `/movewarp <name>`
+- `/movewarp <name>` `warps.movewarp`
 <br>This command moves warp to the current player location, name is taken from the command argument.
 
 #### `/renamewarp`
-Permission: `warps.renamewarp` <br>
-Use:
-- `/renamewarp <name>`
+Use (Players):
+- `/renamewarp <name> <new_name>` `warps.renamewarp`
 <br>This command renames warp if warp can be renamed.
+
+#### `/reloadwarps`
+Use:
+- `/reloadwarps` `warps.reloadwarps`
+<br>This command reloads warps plugin and its configuration.
