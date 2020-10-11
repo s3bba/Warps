@@ -74,9 +74,6 @@ Use (Players):
 - `/warps <category>` `warps.warps.category`
 <br>This command opens warps GUI with specified category.
 
-Use (Staff): 
-
-
 #### `/listwarps`
 Use (Players):
 - `/listwarps` `warps.listwarps`
@@ -91,11 +88,19 @@ Use (Players):
 - `/setwarp <name>` `warps.setwarp`
 <br>This command creates a new warp, name is taken from the command argument.
 
+Use (Staff): 
+- `/setwarp ~ <name>` `warps.setwarp.staff`
+<br>This command creates a new server warp (Warp will be under server warps instead of player warps).
+
 #### `/delwarp`
 Use (Players):
 - `/delwarp` `warps.delwarp`
 <br>This command deletes warp, name of the warp is taken from the players name.
 - `/delwarp <name>` `warps.delwarp`
+<br>This command deletes warp, name is taken from the command argument.
+
+Use (Staff): 
+- `/delwarp ~ <name>` `warps.delwarp.staff`
 <br>This command deletes warp, name is taken from the command argument.
 
 #### `/movewarp`
@@ -105,10 +110,18 @@ Use (Players):
 - `/movewarp <name>` `warps.movewarp`
 <br>This command moves warp to the current player location, name is taken from the command argument.
 
+Use (Staff):
+- `/movewarp ~ <name>` `warps.movewarp.staff`
+<br>This command moves warp to the current player location, name is taken from the command argument.
+
 #### `/renamewarp`
 Use (Players):
 - `/renamewarp <name> <new_name>` `warps.renamewarp`
 <br>This command renames warp if warp can be renamed.
+
+Use (Staff):
+- `/renamewarp ~ <name> <new_name>` `warps.renamewarp.staff`
+<br>This command renames warp.
 
 #### `/reloadwarps`
 Use:
